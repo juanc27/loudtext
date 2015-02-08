@@ -1,0 +1,4 @@
+# Myfiles and directories
+############
+node_modules/*
+npm-debug.log

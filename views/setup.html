@@ -1,0 +1,15 @@
+<h1>Hi, Welcome to loud text app</h1>
+<br>
+<h2>This app measures the input volume of your mic and send text messages to a phone in the US when : </h2>
+<h3>    * The input volume crosses a minimum threshold for more than 1 second.</h3>
+<h3><b>AND</b></h3>
+<h3>     * While the input volume is above the minimum threshold for more than one second, the cumulative volume output (volume­seconds) is one of the top 3 highest output time periods recorded since the start of observation. Where output is defined as <code>output= sum(volume*delta(time))</code></h3>
+
+<h2>The text message will be send after the volume lowers (crosses) down the minimum threhold </h2>
+
+<form id="Settings" name="settings" method="post" action="/results">
+  <input id="inputPhone" type="text" placeholder="Phone (ex. 5555555555)" size=25 name="phone"/>
+  <input id="inputThreshold" type="text" placeholder="Threshold (ex. 0.5)" name="threshold"/>
+  <button id="btnSubmit" type="submit">Submit</button>
+</form>
+
