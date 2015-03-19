@@ -1,10 +1,12 @@
-# node-js-getting-started
+# LoudText
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+This is an example using WebRTC on how to use and process the microphone input. The app reads the mic input and if it passes a threshold specified by the user it send a text message to any phone in the US saying "You are too loud".
+
+Buit with Node.js. 
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed. 
 
 ```sh
 $ git clone https://github.com/juanc27/loudtext.git # or clone your own fork
