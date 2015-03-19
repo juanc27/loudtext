@@ -1,6 +1,6 @@
 # LoudText
 
-This is an example using WebRTC on how to use and process the microphone input. The app reads the mic input and if it passes a threshold specified by the user it send a text message to any phone in the US saying "You are too loud".
+This is an example using WebRTC on how to use and process the microphone input. The app reads the mic input and if it passes a threshold specified by the user it sends a text message to any phone in the US saying "You are too loud".
 
 Buit with Node.js. 
 
